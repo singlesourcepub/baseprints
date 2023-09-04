@@ -6,7 +6,7 @@
 
 Tools which can generate baseprints:
 
-* [basecast](./basecast)
+* [basecast](basecast/index.md)
 
 Other tools that can generate JATS XML can potentially be adapted to generate
 baseprints.
@@ -32,4 +32,3 @@ Tools which can convert a baseprint into a webpage and PDF file:
 * [Software Heritage Archive](https://www.softwareheritage.org/)
 * [SWHIDs : SoftWare Hash Identifiers](https://www.swhid.org/)
 * [Digital Succession Identifiers](https://perm.pub/ji2STto1mZ3i2BmnGxbkebejKH4)
-

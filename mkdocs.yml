@@ -3,3 +3,19 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+markdown_extensions:
+  - attr_list
+nav:
+  - Baseprints : index.md
+  - Basecast:
+    - basecast/index.md
+    - Get Started: basecast/start.md
+    - Usage: basecast/usage.md
+    - Containers: basecast/containers.md
+    - Local Installation: basecast/install.md

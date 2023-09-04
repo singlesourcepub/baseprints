@@ -1,0 +1,24 @@
+# This file is used by pandoc as a default settings option (e.g. "pandoc --defaults pandocin.yaml")
+# and provides all the data and references to post a public edition of this document.
+
+input-file: ${.}/doc.tex
+resource-path:
+- ${.}
+metadata:
+  title: "Is Psychoceramics All It Is Cracked Up To Be?"
+  date: 2013-02-04
+  author:
+  - surname: Carberry
+    given-names:  Josiah Stinkney
+    email: jcarberry@example.com
+    orcid: https://orcid.org/0000-0002-5014-4809
+  copyright:
+    year: "2013"
+    statement: "© 2023, Carberry et al"
+    holder: Carberry et al
+  license:
+    type: open-access
+    link: "https://creativecommons.org/licenses/by/4.0/"
+    text: >-
+      This document is distributed under a Creative Commons Attribution 4.0
+      International license.
