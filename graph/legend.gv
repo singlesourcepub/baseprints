@@ -1,0 +1,18 @@
+digraph G {
+  rankdir="LR"
+  node [fontname="sans-serif", shape=none, width=1.6]
+
+  NULL2 [label="", width=0]
+  NULL1 [label="", width=0]
+
+  BASEPRINT [label="baseprint\ndissemination\nvia git"]
+  HTMLPDF [label="HTML & PDF\nretrieval"]
+
+  edge [penwidth=3, color="#f03c2e", minlen=3]
+
+  BASEPRINT-> NULL1
+
+  edge [style=dashed, penwidth=2, color="darkcyan"]
+
+  HTMLPDF -> NULL2
+}

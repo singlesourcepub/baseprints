@@ -1,5 +1,14 @@
 # Baseprints
 
+Digital research documents disseminated across many channels.
+
+![Dissemination](images/dissemination.svg)
+
+**Legend:**
+
+![Legend](images/legend.svg)
+
+To see an example of a baseprint and learn more, read
 [What is a baseprint?](https://perm.pub/dsi:H5NOlCVM9P5Vv4LbeuwJsaME8kM)
 
 ## Creating baseprints

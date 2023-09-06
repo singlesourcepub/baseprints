@@ -31,6 +31,5 @@ For questions or support, email [Castedo](mailto:castedo@castedo.com).
 
 ### Work TBD
 
-* Fix major problems with the visual appearance of HTML and PDF previews.
-* Document how to use Basecast with GitHub Actions.
 * Document how to archive a baseprint in the Software Heritage Archive.
+* Document how to use Basecast with GitHub Actions.
