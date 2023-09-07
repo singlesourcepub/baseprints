@@ -27,12 +27,12 @@ digraph G {
 
   { GIT SHA IA rank=same }
 
-
   SHA -> IA [style=invis, minlen=2]
 
   node [width=0, height=0.8]
 
   { "Author" "Reader" rank=same }
+
   WEB [shape=rect, label="Independent\nwebsites"]
   "perm.pub" [shape=rect]
 
@@ -43,14 +43,13 @@ digraph G {
   SHA -> "perm.pub"
   SHA -> WEB
 
-  GIT -> "Reader"
-  SHA -> "Reader"
+  GIT -> "Reader":w
+  SHA:sw -> "Reader":nw
 
   edge [style=dashed, penwidth=2, color="darkcyan"]
 
-  "perm.pub" -> IA
+  "perm.pub" -> IA:sw
   WEB -> "Reader"
-  IA -> "Reader"
+  IA:se -> "Reader"
   "perm.pub" -> "Reader"
-
 }

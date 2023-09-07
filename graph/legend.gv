@@ -6,7 +6,7 @@ digraph G {
   NULL1 [label="", width=0]
 
   BASEPRINT [label="baseprint\ndissemination\nvia git"]
-  HTMLPDF [label="HTML & PDF\nretrieval"]
+  HTMLPDF [label="PDF & web page\nretrieval"]
 
   edge [penwidth=3, color="#f03c2e", minlen=3]
 
