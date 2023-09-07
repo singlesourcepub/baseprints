@@ -18,8 +18,8 @@ basecast doc.md --baseprint=out
 The example above will generate a baseprint in the subdirectory `out`
  (which will contain a JATS XML file named `article.xml`).
 
-[Get Started](start.md){ .md-button .md-button--primary }.
-[See Usage](usage.md){ .md-button }.
+[Get Started](start.md){ .md-button .md-button--primary }
+[See Usage](usage.md){ .md-button }
 
 
 ## Under Development
@@ -31,5 +31,4 @@ For questions or support, email [Castedo](mailto:castedo@castedo.com).
 
 ### Work TBD
 
-* Document how to archive a baseprint in the Software Heritage Archive.
 * Document how to use Basecast with GitHub Actions.

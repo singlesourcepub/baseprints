@@ -50,6 +50,15 @@ running a traditional LaTeX compiler. It is merely calling `pandoc`
 to convert to JATS XML from LaTeX or markdown with embedded LaTeX.
 
 
+## Use with Microsoft Word, OpenOffice, LibreOffice
+
+Pandoc supports some word processing formats like `docx` from Microsoft Word.
+Editing with Microsoft Word together with the `basecast` monitoring feature
+and a local web server like `live-server` (see below) will allow a user
+to see the effect of edits after saving the file.
+Basic text formatting, including for the title, will be converted into the baseprint.
+
+
 ## Use with other LaTeX compilers and Overleaf
 
 `basecast` can be used in parallel with other LaTeX compilers such as those found on
@@ -67,7 +76,7 @@ LaTeX markup that is read by both `pandoc` and a full LaTeX compiler is placed i
 
 [Here is an example `main.tex`](examples/main.tex).
 
-The use of a Pandoc defaults file is very useful for handling 
+The use of a Pandoc defaults file is very useful for handling
 separate files such as a `bibliography.bib` file. A Pandoc defaults
 file is also useful for setting JATS XML document metadata.
 

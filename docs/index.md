@@ -8,30 +8,37 @@ Digital research documents disseminated across many channels.
 
 ![Legend](images/legend.svg)
 
-To see an example of a baseprint and learn more, read
-[What is a baseprint?](https://perm.pub/dsi:H5NOlCVM9P5Vv4LbeuwJsaME8kM)
+To learn more, you can read this document (itself a baseprint):
 
-## Creating baseprints
+[What is a baseprint?](https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM)
 
-Tools which can generate baseprints:
+or try creating your own baseprint.
 
-* [basecast](basecast/index.md)
-
-Other tools that can generate JATS XML can potentially be adapted to generate
-baseprints.
+[Author a baseprint](author.md){ .md-button .md-button--primary }
 
 
-## Viewing baseprints
+## Reading baseprints
 
-Tools which can convert a baseprint into a webpage and PDF file:
+There are several ways to access an archived baseprint:
 
-* [epijats](https://gitlab.com/perm.pub/epijats)
+* Run software to retrieve a baseprint from a git repository.
+* Run software to retrieve a baseprint from the [Software Heritage
+ Archive](https://archive.softwareheritage.org/).
+* Browse to a baseprint indexed by [perm.pub](https://perm.pub).
+* Browse to an independent website that presents a baseprint as HTML and/or PDF.
+* Browse to a baseprint that has been archived at the [Internet Archive](https://web.archive.org).
 
+The easiest way for readers is to visit [perm.pub](https://perm.pub/) or an independent
+website that serves HTML and PDF presentations of baseprints.
+For example, one way to read the document "What is a baseprint?" is to
+browse to the URL:
 
-## Services using baseprints
+[https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM](https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM)
 
-* [perm.pub](https://perm.pub/)
-* [popgen.es](https://popgen.es/)
+An application that you can run on your own computer to read archived baseprints is
+currently being developed.
+An open-source software utility and library that can convert a baseprint into a webpage
+and PDF file is [epijats](https://gitlab.com/perm.pub/epijats).
 
 
 ## Related technologies
