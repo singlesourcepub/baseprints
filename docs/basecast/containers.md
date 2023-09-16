@@ -62,7 +62,7 @@ Such a web server is included in the Basecast container images. It can be used v
 ```bash
 live-basecast() {
   podman run --rm -v=.:/mnt -w=/mnt -p=8080:8080 -it \
-    docker.io/castedo/basecast bash -c "live-server web & basecast -w=web $*"
+    docker.io/castedo/basecast bash -c "live-server site & basecast -o=site $*"
 }
 ```
 

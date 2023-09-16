@@ -1,8 +1,8 @@
 # Usage
 
 ```
-usage: basecast [-h] [-b BASEPRINT] [-w WEB] [-p PDF] [-m MONITOR]
-                [-d DEFAULTS]
+usage: basecast [-h] [-b BASEPRINT] [-o OUTDIR] [-C DIRECTORY] [--skip-pdf]
+                [-m MONITOR] [-d DEFAULTS]
                 [infiles ...]
 
 positional arguments:
@@ -12,8 +12,11 @@ options:
   -h, --help            show this help message and exit
   -b BASEPRINT, --baseprint BASEPRINT
                         baseprint output directory
-  -w WEB, --web WEB     HTML web page output directory
-  -p PDF, --pdf PDF     PDF output path
+  -o OUTDIR, --outdir OUTDIR
+                        HTML/PDF output directory
+  -C DIRECTORY, --directory DIRECTORY
+                        run from this directory
+  --skip-pdf            Do not generate PDF
   -m MONITOR, --monitor MONITOR
                         paths to monitor
   -d DEFAULTS, --defaults DEFAULTS
@@ -35,10 +38,10 @@ A simple way to try `basecast` is to write plain text into a `doc.tex` file and 
  as an input file to `basecast`.
 
 ```
-basecast doc.md --baseprint=out
+basecast doc.md -b=baseprint
 ```
 
-A baseprint is created in the subdirectory `out` (containing a JATS XML file named `article.xml`).
+A baseprint is created in the subdirectory `baseprint` (containing a JATS XML file named `article.xml`).
 
 
 ## Use with LaTeX
@@ -48,15 +51,6 @@ LaTeX can also be embedded inside Markdown files.
 However, not all LaTeX is understood by `pandoc`. `basecast` is not
 running a traditional LaTeX compiler. It is merely calling `pandoc`
 to convert to JATS XML from LaTeX or markdown with embedded LaTeX.
-
-
-## Use with Microsoft Word, OpenOffice, LibreOffice
-
-Pandoc supports some word processing formats like `docx` from Microsoft Word.
-Editing with Microsoft Word together with the `basecast` monitoring feature
-and a local web server like `live-server` (see below) will allow a user
-to see the effect of edits after saving the file.
-Basic text formatting, including for the title, will be converted into the baseprint.
 
 
 ## Use with other LaTeX compilers and Overleaf
@@ -83,7 +77,7 @@ file is also useful for setting JATS XML document metadata.
 A defaults file like [this example `pandocin.yaml` file](examples/pandocin.yaml) can be used as follows:
 
 ```
-basecast --defaults mydoc/pandocin.yaml --baseprint outdir
+basecast --defaults mydoc/pandocin.yaml -b=baseprint
 ```
 
 With this approach, the input file `doc.tex` can include a line of LaTeX such as
@@ -118,9 +112,9 @@ containers](containers.md#step-four-optional).
 With the `live-basecast` shell function defined, you can run the shell command:
 
 ```
-live-basecast --defaults mydoc/pandocin.yaml --monitor mydoc --baseprint outdir 
+live-basecast --defaults mydoc/pandocin.yaml --monitor mydoc -b=baseprint
 ```
 
-like `basecast` but a `--web web` output option is automatically added.
+like `basecast` but a `-o=site` output option is automatically added.
 After running you can browse to `http://localhost:8080` to view an automatically
 refreshing HTML preview of the baseprint.

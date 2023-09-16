@@ -2,7 +2,6 @@ site_name: Baseprints
 theme:
   name: material
   features:
-    - navigation.tabs
     - content.code.copy
     - navigation.footer
     - navigation.indexes
@@ -17,7 +16,6 @@ nav:
     - Authoring: author.md
   - Basecast:
     - basecast/index.md
-    - Get Started: basecast/start.md
     - Usage: basecast/usage.md
     - Containers: basecast/containers.md
-    - Local Installation: basecast/install.md
+    - Package Install: basecast/install.md

@@ -1,4 +1,4 @@
-# Local Installation
+# Package Install
 
 Basecast is developed and tested to run locally on Linux, specifically Fedora.
 For Mac and Windows you should [run `basecast` via containers](containers.md).
