@@ -22,7 +22,7 @@ In the bash shell, this is achieved with the following lines:
 
 ```bash
 basecast() {
-  podman run --rm -v=.:/mnt -w=/mnt docker.io/castedo/basecast basecast "$@"
+  podman run --rm -v=$PWD:/mnt -w=/mnt docker.io/castedo/basecast basecast "$@"
 }
 ```
 
