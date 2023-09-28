@@ -10,7 +10,7 @@ Digital research documents disseminated across many channels.
 
 To learn more, you can read this document (itself a baseprint):
 
-[What is a baseprint?](https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM)
+[What is a baseprint?](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo)
 
 or try creating your own baseprint.
 
@@ -33,7 +33,7 @@ website that serves HTML and PDF presentations of baseprints.
 For example, one way to read the document "What is a baseprint?" is to
 browse to the URL:
 
-[https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM](https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM)
+[https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo)
 
 An application that you can run on your own computer to read archived baseprints is
 currently being developed.
@@ -47,4 +47,4 @@ and PDF file is [epijats](https://gitlab.com/perm.pub/epijats).
 * [PMC Open Access Subset packages](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
 * [Software Heritage Archive](https://www.softwareheritage.org/)
 * [SWHIDs : SoftWare Hash Identifiers](https://www.swhid.org/)
-* [Digital Succession Identifiers](https://perm.pub/ji2STto1mZ3i2BmnGxbkebejKH4)
+* [Digital Succession Identifiers](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo)

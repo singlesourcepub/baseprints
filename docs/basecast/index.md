@@ -2,7 +2,7 @@
 
 Basecast is an authoring tool that:
 
-* generates [baseprint](https://perm.pub/H5NOlCVM9P5Vv4LbeuwJsaME8kM) contents,
+* generates [baseprint](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo) contents,
 * reads [Pandoc](https://pandoc.org) source formats such as LaTeX and Markdown,
 * can generate HTML and PDF previews,
 * can automatically regenerate outputs when source files are edited, and
