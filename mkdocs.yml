@@ -1,8 +1,11 @@
 site_name: Baseprints
+site_url: https://baseprints.singlesource.pub/
 theme:
   name: material
+  custom_dir: theme
   features:
     - content.code.copy
+    - toc.integrate
     - navigation.footer
     - navigation.indexes
     - navigation.tabs
@@ -18,5 +21,6 @@ nav:
   - Basecast:
     - basecast/index.md
     - Usage: basecast/usage.md
-    - Containers: basecast/containers.md
-    - Package Install: basecast/install.md
+watch:
+  - docs
+  - theme

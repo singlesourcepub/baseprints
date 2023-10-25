@@ -1,0 +1,20 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+{{ super() -}}
+<meta http-equiv="refresh" content="3; URL={{page.meta.location}}">
+{% endblock extrahead %}
+
+{% block content %}
+<center>
+<p>
+This page is now located at:
+</p>
+
+<a href="{{page.meta.location}}">{{page.meta.location}}</a>
+
+<p>
+You should be be automatically redirected in 3 seconds.
+</p>
+</center>
+{% endblock content %}

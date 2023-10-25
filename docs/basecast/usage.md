@@ -1,5 +1,10 @@
 # Usage
 
+To use the command line interface,
+[run basecast via OCI/Docker container](https://try.perm.pub/howto/basecast_container/)
+  (recommended) or
+[install software packages](https://try.perm.pub/howto/install_basecast/).
+
 ```
 usage: basecast [-h] [-b BASEPRINT] [-o OUTDIR] [-C DIRECTORY] [--skip-pdf]
                 [-m MONITOR] [-d DEFAULTS]
