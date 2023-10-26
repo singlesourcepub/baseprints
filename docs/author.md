@@ -13,11 +13,11 @@ For more information,
 
 ## Stage 1: Generation
 
-[Basecast](basecast/index.md) is a tool that can generate the contents of a baseprint.
+[Basecast](https://try.perm.pub/basecast/) is a tool that can generate the contents of a baseprint.
 Other tools that can generate JATS XML can potentially be adapted to generate
  baseprint contents.
 
-[Generate baseprint contents with Basecast](basecast/index.md){ .md-button .md-button--primary }
+[Generate baseprint contents with Basecast](https://try.perm.pub/basecast/){ .md-button .md-button--primary }
 
 
 ## Stage 2: Committing

@@ -8,7 +8,6 @@ theme:
     - toc.integrate
     - navigation.footer
     - navigation.indexes
-    - navigation.tabs
     - navigation.top
     - navigation.tracking
 markdown_extensions:
@@ -17,10 +16,7 @@ markdown_extensions:
 nav:
   - Baseprints:
     - index.md
-    - Authoring: author.md
-  - Basecast:
-    - basecast/index.md
-    - Usage: basecast/usage.md
+    - author.md
 watch:
   - docs
   - theme
