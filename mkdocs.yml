@@ -16,7 +16,7 @@ markdown_extensions:
 nav:
   - Baseprints:
     - index.md
-    - author.md
+    - tech.md
 watch:
   - docs
   - theme

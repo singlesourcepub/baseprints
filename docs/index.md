@@ -1,45 +1,24 @@
 # Baseprints
 
-Digital research documents disseminated across many channels.
-
-![Dissemination](images/dissemination.svg)
-
-**Legend:**
-
-![Legend](images/legend.svg)
-
-To learn more, you can read this document (itself a baseprint):
-
-[What is a baseprint?](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo)
-
-or try creating your own baseprint.
-
-[Author a baseprint](author.md){ .md-button .md-button--primary }
+Read the document "[What is a baseprint?](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo)"
+for a definition of _baseprint_. That document itself also serves as an example of a baseprint.
+Baseprints are used as digital objects (or editions) inside a digital succession.
+Visit [try.perm.pub](https://try.perm.pub/) to learn about digital successions of baseprints.
+For technical details and an illustration of a baseprint, see the [Technical Details page](tech.md).
 
 
-## Reading baseprints
+## Software
 
-There are several ways to access an archived baseprint:
+[Basecast](https://try.perm.pub/basecast/) is an example of software that **writes** a baseprint.
+This is demonstrated in the tutorial
+["Author a Baseprint Locally"](https://try.perm.pub/tutorial/basecast_locally/).
 
-* Run software to retrieve a baseprint from a git repository.
-* Run software to retrieve a baseprint from the [Software Heritage
- Archive](https://archive.softwareheritage.org/).
-* Browse to a baseprint indexed by [perm.pub](https://perm.pub).
-* Browse to an independent website that presents a baseprint as HTML and/or PDF.
-* Browse to a baseprint that has been archived at the [Internet Archive](https://web.archive.org).
-
-The easiest way for readers is to visit [perm.pub](https://perm.pub/) or an independent
-website that serves HTML and PDF presentations of baseprints.
-For example, one way to read the document "What is a baseprint?" is to
-browse to the URL:
-
-[https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo)
-
-An application that you can run on your own computer to read archived baseprints is
-currently being developed.
-An open-source software utility and library that can convert a baseprint into a webpage
-and PDF file is [epijats](https://gitlab.com/perm.pub/epijats).
-
+[BaseprintPress](https://gitlab.com/perm.pub/baseprintpress)
+is an example of software that **reads** a baseprint.
+It generates web pages from a baseprint by using the open-source library
+[epijats](https://gitlab.com/perm.pub/epijats).
+This is demonstrated in the tutorial
+["Generate Pages for a Published Digital Succession"](https://try.perm.pub/tutorial/gen_pages/).
 
 ## Related technologies
 

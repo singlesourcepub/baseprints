@@ -1,4 +1,4 @@
-# Authoring
+# Technical Details
 
 Authoring a baseprint involves three stages:
 
