@@ -3,27 +3,28 @@ Baseprints Interoperability Forum
 
 This website and associated GitHub repository are for sharing information about
 Baseprint open formats.
-A goal for this sharing is to help applications reading or writing data in a
+A goal of this sharing is to help applications reading or writing data in a
 baseprint format to better serve users with better interoperability.
 
 
 Baseprint Open Formats
 ----------------------
 
-Currently only one format uses the name "Baseprint".
+Currently, there is only one format using the word "Baseprint".
 However, [try.perm.pub](https://try.perm.pub) uses the phrase
-"Baseprint document succession" for data records in Document Succession Git Layout (DSGL).
+"Baseprint document succession" to refer to data records in Document Succession Git Layout (DSGL).
 
-[Baseprint Document Format (BDF)](bdf.md):
-:   "Document snapshot" is an intuitive phrase for what this format encodes.
+[Baseprint Document Format (BDF)](bdf/index.md):
+:   This format encodes a document snapshot.
 
-Document Succession Git Layout (DSGL) & Document Succession Identifier (DSI):
-:   Two formats which are a split and rename to be made from the specification for
+Document Succession Git Layout (DSGL)
+& Document Succession Identifier (DSI):
+:   These are two formats which are to be split out from and renamed from the specification of
     [Digital Succession Identifiers (DSI)](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo).
-    This format is a succession of document snapshots in BDF.
+    A document succession is a succession of document snapshots.
 
-Existing Applications
----------------------
+Applications
+------------
 
 ### Websites
 
@@ -37,17 +38,17 @@ Existing Applications
 :   A BDF authoring tool that can be used via GitHub Actions, container or locally
     installed.
 
-[Pandoc](https://perm.pub/baseprinter):
-:   But only with JATS XML output that is BDF compatible.
+[Pandoc](https://try.perm.pub/pandoc):
+:   This tool can output JATS XML, which can be BDF compatible.
 
 [Hidos](https://hidos.readthedocs.io):
 :   Software library and tool that writes document successions in DSGL
-    (a.k.a., "Baseprint document successions").
+    (to encode a "Baseprint document succession").
 
 ### Software Reading in a Baseprint Format
 
 [epijats](https://gitlab.com/perm.pub/epijats):
-:   open-source library used by BaseprintPress, perm.pub and popgen.es and Baseprinter (for previews).
+:   An open-source library used by BaseprintPress, perm.pub and popgen.es and Baseprinter (for previews).
 
 [BaseprintPress](https://gitlab.com/perm.pub/baseprintpress):
 :   Generates web pages from Baseprint document successions.
@@ -66,8 +67,8 @@ Baseprint Feature D's
 
 The GitHub Discussions category
 [Baseprint Feature D's](https://github.com/singlesourcepub/baseprints/discussions/categories/baseprint-feature-d-s)
-is available to facilitate focused discussions, decisions, proposals, definitions etc...
-about a specific feature of a Baseprint format.
+is available to facilitate discussions, decisions, proposals, definitions etc...
+that focus on a specific feature of a Baseprint format.
 
 History
 -------

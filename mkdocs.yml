@@ -7,7 +7,7 @@ theme:
     - content.code.copy
 #    - toc.integrate
     - navigation.footer
-#    - navigation.indexes
+    - navigation.indexes
     - navigation.top
     - navigation.tracking
 markdown_extensions:
@@ -16,7 +16,8 @@ markdown_extensions:
   - def_list
 nav:
   - Interoperability Forum: index.md
-  - Baseprint Document Format: bdf.md
+  - Baseprint Document Format:
+    - bdf/index.md
 watch:
   - docs
   - theme
