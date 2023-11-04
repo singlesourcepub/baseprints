@@ -3,39 +3,36 @@ Baseprints Interoperability Forum
 
 This website and associated GitHub repository are for sharing information about
 Baseprint open formats.
-A goal of this sharing is to help applications reading or writing data in a
-baseprint format to better serve users with better interoperability.
-
+The goal is to help users and developers
+assess the interoperability between applications that read or write in a Baseprint format.
 
 Baseprint Open Formats
 ----------------------
 
-Currently, there is only one format using the word "Baseprint".
-However, [try.perm.pub](https://try.perm.pub) uses the phrase
-"Baseprint document succession" to refer to data records in Document Succession Git Layout (DSGL).
-
 [Baseprint Document Format (BDF)](bdf/index.md):
-:   This format encodes a document snapshot.
+:   This format encodes a Baseprint document snapshot.
 
 Document Succession Git Layout (DSGL)
 & Document Succession Identifier (DSI):
-:   These are two formats which are to be split out from and renamed from the specification of
+:   These are two formats that will be split out and renamed from the specification of
     [Digital Succession Identifiers (DSI)](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo).
-    A document succession is a succession of document snapshots.
+    A document succession is a succession of document snapshots (such as BDF).
+    [Try.perm.pub](https://try.perm.pub) refers to data records in DSGL as
+    ["Baseprint document successions"](https://try.perm.pub/document_succession/).
 
 Applications
 ------------
 
 ### Websites
 
-* [perm.pub](https://perm.pub)
-* [popgen.es](https://popgen.es)
+- [perm.pub](https://perm.pub)
+- [popgen.es](https://popgen.es)
 
 
 ### Software Writing in a Baseprint Format
 
 [Baseprinter](https://perm.pub/baseprinter):
-:   A BDF authoring tool that can be used via GitHub Actions, container or locally
+:   A BDF authoring tool that can be used via GitHub Actions, container, or locally
     installed.
 
 [Pandoc](https://try.perm.pub/pandoc):
@@ -47,27 +44,27 @@ Applications
 
 ### Software Reading in a Baseprint Format
 
-[epijats](https://gitlab.com/perm.pub/epijats):
-:   An open-source library used by BaseprintPress, perm.pub and popgen.es and Baseprinter (for previews).
-
 [BaseprintPress](https://gitlab.com/perm.pub/baseprintpress):
-:   Generates web pages from Baseprint document successions.
+:   Software generating web pages from Baseprint document successions.
     For a tutorial, see ["Generate Pages for a Published Digital Succession"](https://try.perm.pub/tutorial/gen_pages/).
+
+[epijats](https://gitlab.com/perm.pub/epijats):
+:   An open-source library used by BaseprintPress, perm.pub, popgen.es, and Baseprinter (for previews).
 
 Related Technologies
 --------------------
 
-* [JATS4R](https://jats4r.org/)
-* [PMC Open Access Subset packages](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
-* [Software Heritage Archive](https://www.softwareheritage.org/)
-* [SWHIDs : SoftWare Hash Identifiers](https://www.swhid.org/)
+- [JATS4R](https://jats4r.org/)
+- [PMC Open Access Subset packages](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
+- [Software Heritage Archive](https://www.softwareheritage.org/)
+- [SoftWare Hash Identifier (SWHID)](https://www.swhid.org/)
 
 Baseprint Feature D's
 ---------------------
 
 The GitHub Discussions category
 [Baseprint Feature D's](https://github.com/singlesourcepub/baseprints/discussions/categories/baseprint-feature-d-s)
-is available to facilitate discussions, decisions, proposals, definitions etc...
+is available to facilitate discussions, decisions, proposals, definitions, etc.
 that focus on a specific feature of a Baseprint format.
 
 History
