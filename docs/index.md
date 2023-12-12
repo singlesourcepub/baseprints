@@ -31,7 +31,7 @@ Applications
 
 ### Software Writing in a Baseprint Format
 
-[Baseprinter](https://perm.pub/baseprinter):
+[Baseprinter](https://try.perm.pub/baseprinter):
 :   A BDF authoring tool that can be used via GitHub Actions, container, or locally
     installed.
 

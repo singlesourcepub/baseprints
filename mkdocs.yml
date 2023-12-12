@@ -1,5 +1,8 @@
 site_name: Baseprints
 site_url: https://baseprints.singlesource.pub/
+repo_name: github<br>singlesourcepub/baseprints
+repo_url: https://github.com/singlesourcepub/baseprints
+edit_uri: edit/main/docs/index.md
 theme:
   name: material
   custom_dir: theme
