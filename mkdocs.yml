@@ -2,13 +2,14 @@ site_name: Baseprints
 site_url: https://baseprints.singlesource.pub/
 repo_name: github<br>singlesourcepub/baseprints
 repo_url: https://github.com/singlesourcepub/baseprints
-edit_uri: edit/main/docs/index.md
+edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: theme
   features:
+    - content.action.edit
     - content.code.copy
-#    - toc.integrate
+    - toc.integrate
     - navigation.footer
     - navigation.indexes
     - navigation.top

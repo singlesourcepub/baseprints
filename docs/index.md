@@ -12,16 +12,17 @@ Baseprint Open Formats
 [Baseprint Document Format (BDF)](bdf/index.md):
 :   This format encodes a Baseprint document snapshot.
 
-Document Succession Git Layout (DSGL)
-& Document Succession Identifier (DSI):
-:   These are two formats that will be split out and renamed from the specification of
-    [Digital Succession Identifiers (DSI)](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo).
-    A document succession is a succession of document snapshots (such as BDF).
-    [Try.perm.pub](https://try.perm.pub) refers to data records in DSGL as
-    ["Baseprint document successions"](https://try.perm.pub/document_succession/).
+[Document Succession Git Layout (DSGL)](https://perm.pub/VGajCjaNP1Ugz58Khn1JWOEdMZ8):
+:   Baseprint document snapshots are stored inside a document succession in DSGL format.
+
+[Document Succession Identifiers (DSI)](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo):
+:   A DSI is a textual identifier for document successions and snapshots.
 
 Applications
 ------------
+
+DSI, DSGL, and BDF together make *Baseprint document successions*, which are introduced
+on [try.perm.pub](https://try.perm.pub).
 
 ### Websites
 
