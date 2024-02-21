@@ -18,6 +18,16 @@ Baseprint Open Formats
 [Document Succession Identifiers (DSI)](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo):
 :   A DSI is a textual identifier for document successions and snapshots.
 
+
+Baseprint Feature D's
+---------------------
+
+The GitHub Discussions category
+[Baseprint Feature D's](https://github.com/singlesourcepub/baseprints/discussions/categories/baseprint-feature-d-s)
+is available to facilitate discussions, decisions, proposals, definitions, etc.
+that focus on a specific feature of a Baseprint format.
+
+
 Applications
 ------------
 
@@ -29,6 +39,13 @@ on [try.perm.pub](https://try.perm.pub).
 - [perm.pub](https://perm.pub)
 - [popgen.es](https://popgen.es)
 
+### Software Reading/Writing in DSGL
+
+[Hidos](https://hidos.readthedocs.io):
+:   Software library and tool that reads/writes document successions in DSGL.
+
+[Document Succession Highly Manual Toolkit](https://manual.perm.pub):
+:   Manual for software toolkit that reads/writes document successions in DSGL.
 
 ### Software Writing in a Baseprint Format
 
@@ -38,10 +55,6 @@ on [try.perm.pub](https://try.perm.pub).
 
 [Pandoc](https://try.perm.pub/pandoc):
 :   This tool can output JATS XML, which can be BDF compatible.
-
-[Hidos](https://hidos.readthedocs.io):
-:   Software library and tool that writes document successions in DSGL
-    (to encode a "Baseprint document succession").
 
 ### Software Reading in a Baseprint Format
 
@@ -59,14 +72,6 @@ Related Technologies
 - [PMC Open Access Subset packages](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
 - [Software Heritage Archive](https://www.softwareheritage.org/)
 - [SoftWare Hash Identifier (SWHID)](https://www.swhid.org/)
-
-Baseprint Feature D's
----------------------
-
-The GitHub Discussions category
-[Baseprint Feature D's](https://github.com/singlesourcepub/baseprints/discussions/categories/baseprint-feature-d-s)
-is available to facilitate discussions, decisions, proposals, definitions, etc.
-that focus on a specific feature of a Baseprint format.
 
 History
 -------
