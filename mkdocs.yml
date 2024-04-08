@@ -18,10 +18,13 @@ markdown_extensions:
   - attr_list
   - admonition
   - def_list
+  - md_in_html
+#  - tables
 nav:
   - Interoperability Forum: index.md
   - Baseprint Document Format:
     - bdf/index.md
+    - jats.md
 watch:
   - docs
   - theme

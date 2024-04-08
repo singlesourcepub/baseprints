@@ -23,8 +23,8 @@ it is often temporarily stored in a file system directory.
 However, for public long-term storage, BDF data is stored in a SWHID addressable Git tree or
 an equivalent "directory" object in the Software Heritage Archive.
 
-Inside BDF, there is a file named `article.xml` encoded in a subset of the JATS XML
-format.
+Inside BDF, there is a file named `article.xml` encoded in a subset of the
+[JATS XML format](../jats.md).
 This file format can informally be referred to as *Baseprint JATS XML*.
 As of October 2023,
 all applications that read Baseprint document snapshots encoded in BDF
