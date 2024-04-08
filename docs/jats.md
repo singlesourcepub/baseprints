@@ -20,6 +20,7 @@ Archived Corpora:
 * **PMC XML**: [PubMed Central (PMC) Open Access Subset](https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/)
 * **eLife XML**: [eLife article XML repository](https://github.com/elifesciences/elife-article-xml) 
 * **?**: eLife Reviewed Preprints
+* **EPMC XML** CTX?
 
 Non-archived Corpora:
 
@@ -37,6 +38,11 @@ Non-archived Corpora:
   <td>PubMed Central (HTML generation)</td>
   <td>?</td>
   <td></td>
+</tr>
+<tr markdown>
+  <td>Europe PMC (HTML generation)</td>
+  <td>? <a href="https://gitlab.ebi.ac.uk/literature-services/public-projects/full-text-xsl">full-text-xsl</a></td>
+  <td>JavaScript ? (and XSL)</td>
 </tr>
 <tr markdown>
   <td>bioRxiv JATS XML to eLife Reviewed Preprints</td>
