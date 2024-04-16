@@ -1,3 +1,5 @@
+<!-- copybreak off -->
+
 JATS XML Open Dialects
 ======================
 
@@ -97,13 +99,14 @@ JATS XML is formally defined through specifications and recommendations:
   <td>Python</td>
 </tr>
 <tr>
-  <td><a href"https://scielo.org">SciELO</a>?</td>
+  <td><a href="https://scielo.org">SciELO</a>?</td>
   <td>internal?</td>
   <td><a href="https://github.com/scieloorg/packtools">packtools</a></td>
   <td>XSLT + Python</td>
 </tr>
 </table>
 
+<!-- copybreak off -->
 
 ## Open-source What-You-Preview-Is-Semantically-What-You-Publish
 
@@ -114,9 +117,29 @@ JATS XML is formally defined through specifications and recommendations:
   <th>Language</th>
 </tr>
 <tr>
-  <td><a href="https://www.fiduswriter.org">FidusWriter</td>
+  <td><a href="https://www.fiduswriter.org">FidusWriter</a></td>
   <td><a href="https://github.com/fiduswriter/fiduswriter">FidusWriter</a></td>
   <td>Python + JavaScript</td>
+</tr>
+</table>
+
+## JATS Reading Open-Source Software Under Development
+
+<table>
+<tr>
+  <th>Software</th>
+  <th>Language</th>
+  <th>Notes</th>
+</tr>
+<tr>
+  <td><a href="https://gitlab.com/perm.pub/epijats">Epijats</a></td>
+  <td>Python (with Pandoc and NPM dependencies)</td>
+  <td>Generates HTML and PDF previews</td>
+</tr>
+<tr>
+  <td><a href="https://www.npmjs.com/package/jats-to-myst">jats-to-myst package</a> of <a href="https://github.com/executablebooks/mystmd">mystmd</a></td>
+  <td>JavaScript</td>
+  <td></td>
 </tr>
 </table>
 
