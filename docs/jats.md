@@ -7,8 +7,8 @@ This page documents Free Open-Source Software (FOSS) and Open Access (OA) reposi
 establish various *open dialects* of JATS XML.
 [Baseprint Document Format (BDF)](bdf/index.md) establishes another JATS open dialect:
 *Baseprint JATS*, developed for self-publishing workflows using author-authored JATS XML.
-Author-authored JATS demands FOSS that supports WYPISWYP:
-What-You-Preview-Is-Semantically-What-You-Publish.
+Author-authored JATS demands FOSS that supports WYPIEWYP:
+What-You-Preview-Is-Essentially-What-You-Publish.
 
 JATS XML is formally defined through specifications and recommendations:
 
@@ -69,22 +69,21 @@ JATS XML is formally defined through specifications and recommendations:
   <td>TypeScript</td>
 </tr>
 <tr>
-  <td>Open Preprint Systems (OPS) servers</td>
-  <td>internal?</td>
-  <td><a href="https://pkp.sfu.ca/software/ops/">OPS</a></td>
+  <td><a href="https://github.com/pkp">Open Journal Systems (OJS)</a> journal</td>
+  <td>?</td>
+  <td>
+    <a href="https://github.com/asmecher/lensGalley">lensGalley</a> &amp;
+    <a href="https://github.com/withanage/lensGalleyBits">lensGalleyBits</a> OJS plugins
+  </td>
   <td>PHP</td>
 </tr>
 <tr>
-  <td>Open Journal Systems (OJS) journals</td>
-  <td>internal?</td>
-  <td><a href="https://github.com/pkp">OJS</a></td>
-  <td>PHP</td>
-</tr>
-<tr>
+  <td><a href="https://github.com/pkp">Open Journal Systems (OJS)</a> journal</td>
   <td>?</td>
-  <td>?</td>
-  <td><a href="https://github.com/elifesciences/lens">eLife Lens</a> and derivatives</td>
-  <td>JavaScript</td>
+  <td>
+    <a href="https://github.com/ajnyga/embedGalley">embedGalley</a> OJS plugin
+  </td>
+  <td>XSLT + PHP</td>
 </tr>
 <tr>
   <td>American Mathematical Society (AMS) journals</td>
@@ -108,7 +107,7 @@ JATS XML is formally defined through specifications and recommendations:
 
 <!-- copybreak off -->
 
-## Open-source What-You-Preview-Is-Semantically-What-You-Publish
+## Open-source What-You-Preview-Is-Essentially-What-You-Publish
 
 <table>
 <tr>
