@@ -70,10 +70,18 @@ JATS XML is formally defined through specifications and recommendations:
 </tr>
 <tr>
   <td><a href="https://github.com/pkp">Open Journal Systems (OJS)</a> journal</td>
-  <td>?</td>
+  <td>manual imports by journal staff</td>
+  <td>
+    <a href="https://github.com/Vitaliy-1/JATSParserPlugin">JATSParserPlugin</a>
+  </td>
+  <td>PHP + JavaScript</td>
+</tr>
+<tr>
+  <td><a href="https://github.com/pkp">Open Journal Systems (OJS)</a> journal</td>
+  <td>manual imports by journal staff</td>
   <td>
     <a href="https://github.com/asmecher/lensGalley">lensGalley</a> &amp;
-    <a href="https://github.com/withanage/lensGalleyBits">lensGalleyBits</a> OJS plugins
+    <a href="https://github.com/withanage/lensGalleyBits">lensGalleyBits</a> plugins
   </td>
   <td>PHP</td>
 </tr>
