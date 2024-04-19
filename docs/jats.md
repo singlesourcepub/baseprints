@@ -86,14 +86,6 @@ JATS XML is formally defined through specifications and recommendations:
   <td>PHP</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/pkp">Open Journal Systems (OJS)</a> journal</td>
-  <td>?</td>
-  <td>
-    <a href="https://github.com/ajnyga/embedGalley">embedGalley</a> OJS plugin
-  </td>
-  <td>XSLT + PHP</td>
-</tr>
-<tr>
   <td>American Mathematical Society (AMS) journals</td>
   <td>internal</td>
   <td><a href="https://github.com/AmerMathSoc/texml-to-html">AMS texml-to-html</a></td>
