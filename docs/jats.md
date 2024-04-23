@@ -37,12 +37,6 @@ JATS XML is formally defined through specifications and recommendations:
   <th>Language</th>
 </tr>
 <tr>
-  <td><a href="https://www.ncbi.nlm.nih.gov/pmc/">PMC</a></td>
-  <td>PMC OA Subset</td>
-  <td>?</td>
-  <td>?</td>
-</tr>
-<tr>
   <td><a href="https://www.ncbi.nlm.nih.gov/pmc/about/pubreader/">PMC PubReader</a> (discontinued 2024)</td>
   <td>PMC OA Subset</td>
   <td><a href="https://github.com/ncbi/PubReader">PubReader</a></td>
