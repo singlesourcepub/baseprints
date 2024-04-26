@@ -25,6 +25,7 @@ nav:
   - Baseprint Document Format:
     - bdf/index.md
     - jats.md
+  - Document Successions: successions.md
 watch:
   - docs
   - theme
