@@ -26,6 +26,10 @@ nav:
     - bdf/index.md
     - jats.md
   - Document Successions: successions.md
+  - About: about.md
+extra:
+  generator: false
+copyright: '<a href="/about/">About</a>'
 watch:
   - docs
   - theme

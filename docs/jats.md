@@ -134,5 +134,15 @@ JATS XML is formally defined through specifications and recommendations:
   <td>JavaScript</td>
   <td></td>
 </tr>
+<tr>
+  <td><a href="https://github.com/hubgit/prosemirror-jats/">github.com/hubgit/prosemirror-jats/</a></td>
+  <td>TypeScript</td>
+  <td></td>
+</tr>
+<tr>
+  <td><a href="https://github.com/TrialAndErrorOrg/parsers">github.com/TrialAndErrorOrg/parsers</a></td>
+  <td>TypeScript</td>
+  <td></td>
+</tr>
 </table>
 

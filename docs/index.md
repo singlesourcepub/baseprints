@@ -30,10 +30,3 @@ approach.
 Alternatively, Baseprint document snapshots can be redistributed and archived
 in a distributed approach as [*Baseprint document successions*](successions.md).
 
-
-History
--------
-
-"Baseprint" was the clear winner in
-[this word choice survey](https://github.com/singlesourcepub/community/discussions/51).
-
