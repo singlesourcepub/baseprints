@@ -32,7 +32,7 @@ Image support for [BDF](bdf/index.md)
 E-publication of the [Maggi paper](https://github.com/castedo/ten-years-challenge-pulsed-drive)
 : Sabino Maggi is the first pilot user interested in publishing a Baseprint document.
 
-Document succession resolver service launch
+[Document succession resolver service](https://github.com/singlesourcepub/baseprints/discussions/7) launch
 : A web API that resolves a DSI to all the SWHIDs for each of the snapshots by querying the
 Software Heritage Archive and GitHub. It needs to use OpenSSH to verify SSH signatures.
 
