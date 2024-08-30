@@ -5,7 +5,7 @@ JATS XML Open Dialects
 
 This page documents Free Open-Source Software (FOSS) and Open Access (OA) repositories that
 establish various *open dialects* of JATS XML.
-[Baseprint Document Format (BDF)](bdf/index.md) establishes another JATS open dialect:
+[Baseprint Document Format (BpDF)](bdf/index.md) establishes another JATS open dialect:
 *Baseprint JATS*, developed for self-publishing workflows using author-authored JATS XML.
 Author-authored JATS demands FOSS that supports WYPIEWYP:
 What-You-Preview-Is-Essentially-What-You-Publish.

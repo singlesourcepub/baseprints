@@ -9,7 +9,7 @@ A document succession encoded in the format
 records a succession of Baseprint document *snapshots*.
 A [Document Succession Identifier (DSI)](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo)
 is a textual persistent identifier of a document succession.
-DSI, DSGL, and [BDF](bdf/index.md) together encode Baseprint document successions.
+DSI, DSGL, and [BpDF](bdf/index.md) together encode Baseprint document successions.
 
 ## Software Reading/Writing Baseprint Document Successions
 

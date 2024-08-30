@@ -23,7 +23,7 @@ Future Plans
 
 ### Milestones
 
-Image support for [BDF](bdf/index.md)
+Image support for [BpDF](bdf/index.md)
 : As of 2023, Baseprint software does not support images.
     
 [BaseprintPress](https://gitlab.com/perm.pub/baseprintpress) available as a GitHub Action
@@ -36,7 +36,7 @@ E-publication of the [Maggi paper](https://github.com/castedo/ten-years-challeng
 : A web API that resolves a DSI to all the SWHIDs for each of the snapshots by querying the
 Software Heritage Archive and GitHub. It needs to use OpenSSH to verify SSH signatures.
 
-In-browser client-side BDF-to-HTML rendering
+In-browser client-side BpDF-to-HTML rendering
 : Calls the resolver service. Websites can use it without having to generate content
 server-side or statically.
 
