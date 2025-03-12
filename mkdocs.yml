@@ -23,7 +23,7 @@ markdown_extensions:
 nav:
   - Interoperability Forum: index.md
   - Baseprint Document Format:
-    - bdf/index.md
+    - bpdf/index.md
     - jats.md
   - Document Successions: successions.md
   - About: about.md

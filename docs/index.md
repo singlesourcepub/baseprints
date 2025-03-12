@@ -28,5 +28,4 @@ which can be redistributed and archived through various mechanisms.
 Some preprint servers could archive Baseprint document snapshots in a centralized
 approach.
 Alternatively, Baseprint document snapshots can be redistributed and archived
-in a distributed approach as [*Baseprint document successions*](successions.md).
-
+in a distributed approach, such as [*Baseprint document successions*](successions.md).
