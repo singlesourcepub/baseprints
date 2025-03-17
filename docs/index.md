@@ -22,7 +22,7 @@ that focus on specific features of a Baseprint format.
 Snapshots vs. Successions
 -------------------------
 
-[Baseprint Document Format (BpDF)](bdf/index.md) is the
+[Baseprint Document Format (BpDF)](bpdf/index.md) is the
 digital encoding format for *Baseprint document snapshots*,
 which can be redistributed and archived through various mechanisms.
 Some preprint servers could archive Baseprint document snapshots in a centralized
