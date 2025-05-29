@@ -24,8 +24,6 @@ Snapshots vs. Successions
 
 [Baseprint Document Format (BpDF)](bpdf/index.md) is the
 digital encoding format for *Baseprint document snapshots*,
-which can be redistributed and archived through various mechanisms.
-Some preprint servers could archive Baseprint document snapshots in a centralized
-approach.
-Alternatively, Baseprint document snapshots can be redistributed and archived
-in a distributed approach, such as [*Baseprint document successions*](successions.md).
+which are redistributed and archived as
+[*Baseprint document successions*](successions.md) in the [Software Heritage
+Archive](https://softwareheritage.org) and [GitHub](https://github.com).

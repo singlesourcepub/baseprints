@@ -19,6 +19,11 @@ DSI, DSGL, and [BpDF](bpdf/index.md) together encode Baseprint document successi
 [Document Succession Highly Manual Toolkit](https://manual.perm.pub):
 :   Manual for a software toolkit that reads/writes document successions in DSGL.
 
+[BaseprintLens](https://gitlab.com/perm.pub/baseprintlens):
+:   the open-source [Single-Page Application](https://en.wikipedia.org/wiki/Single-page_application) (SPA)
+    that is deployed at [lens.perm.pub](https://lens.perm.pub)
+    and can be [deployed to other independent websites](https://try.perm.pub/tutorial/host_website/).
+
 [BaseprintPress](https://gitlab.com/perm.pub/baseprintpress):
 :   Software that generates web pages from Baseprint document successions.
     For a tutorial, see ["Generate Pages for a Published Digital Succession"](https://try.perm.pub/tutorial/gen_pages/).
