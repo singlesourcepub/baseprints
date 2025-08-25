@@ -1,6 +1,9 @@
 Baseprint Document Format (BpDF)
 ================================
 
+Technical details of the BpDF format are documented in the
+[BpDF specification (dsi:DPRkAz3vwSj85mBCgG49DeyndaE)](https://perm.pub/DPRkAz3vwSj85mBCgG49DeyndaE/).
+
 BpDF is the digital encoding format of a *Baseprint document snapshot*.
 These document snapshots can be identified with a
 [SoftWare Hash IDentifier (SWHID)](https://swhid.org).
@@ -9,10 +12,6 @@ document
 "[What is a baseprint?](https://perm.pub/HKSI5NPzMFmgRlb4Vboi71OTKYo)".
 As of 2024, these document snapshots are only used within
 [Baseprint document successions](../successions.md).
-
-
-Technical details of the format are being [documented in a draft specification on
-GitHub](https://github.com/castedo/bpdf-spec/).
 
 
 Objectives
@@ -34,8 +33,9 @@ Supporting Software
 The BpDF format is implemented in the
 [open-source Python library epijats](https://pypi.org/project/epijats/).
 This library is used in the authoring tool
-[Baseprinter](https://try.perm.pub/baseprinter/) (for previews)
-and in 
+[Baseprinter](https://try.perm.pub/baseprinter/),
+the Baseprint document succession viewer [BaseprintLens](https://lens.perm.pub/),
+and in
 [BaseprintPress](https://gitlab.com/perm.pub/baseprintpress)
 for generating websites, such as [pilot.perm.pub](https://pilot.perm.pub).
 
