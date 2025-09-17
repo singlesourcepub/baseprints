@@ -4,6 +4,9 @@ Baseprint Document Format (BpDF)
 Technical details of the BpDF format are documented in the
 [BpDF specification (dsi:DPRkAz3vwSj85mBCgG49DeyndaE)](https://perm.pub/DPRkAz3vwSj85mBCgG49DeyndaE/).
 
+Updates to the working draft for the 2nd edition of the BpDF specification are at
+<https://github.com/castedo/bpdf-spec>.
+
 BpDF is the digital encoding format of a *Baseprint document snapshot*.
 These document snapshots can be identified with a
 [SoftWare Hash IDentifier (SWHID)](https://swhid.org).
