@@ -16,4 +16,4 @@ The GitHub Discussions category
 is available to facilitate discussions, decisions, proposals, definitions, etc...
 that focus on specific features of a Baseprint format.
 
-Visit <https://singlesource.github.io/baseprints/> for more information.
+Visit <https://singlesourcepub.github.io/baseprints/> for more information.
