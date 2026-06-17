@@ -1,7 +1,7 @@
 Baseprints Interoperability Forum
 =================================
 
-The website <https://baseprints.singlesource.pub> and
+The website <https://singlesourcepub.github.io/baseprints/> and
 this GitHub repository are for sharing information about
 Baseprint open formats.
 The goal is to assist users and developers
@@ -16,4 +16,4 @@ The GitHub Discussions category
 is available to facilitate discussions, decisions, proposals, definitions, etc...
 that focus on specific features of a Baseprint format.
 
-Visit <https://baseprints.singlesource.pub> for more information.
+Visit <https://singlesource.github.io/baseprints/> for more information.
